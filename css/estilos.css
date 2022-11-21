@@ -1,0 +1,693 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: linear-gradient(180deg, #F3FBFB 0%, rgba(243, 251, 251, 0.91) 100%);
+}
+header
+{
+    background: black;
+    height: 84px;
+    width: 1440px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 1.18%;
+}
+/*Logo */
+.imgContenedor
+{
+    position: absolute;
+    left: 3.42%;
+    right: 87.64%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.imgEncabezado
+{
+    width: 4.5rem;
+}
+/* Menu y menu responsivo*/
+header nav
+{
+    width: 90%;
+    max-width: 5000px;
+    margin: 0px auto;
+    height: 72px;
+    background-color: #000;
+}
+.menu_bar
+{
+    display: none;
+}
+header nav ul
+{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li
+{
+    float: left;
+}
+
+header nav ul li a
+{
+    color: #E5DCC8;
+    padding: 20px;
+    margin-left: 90px;
+    display: block;
+    text-decoration: none;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    color: #E5DCC8;
+}
+header nav ul li span
+{
+    margin-right:10px;
+}
+header nav ul li a :hover
+{
+    background: #2D2427;
+}
+header nav span 
+{
+    margin-left: 800px;
+ 
+}
+header nav .icon-cart
+{
+    display: none;
+}
+/* forma de botones de nosotros y tiendas*/
+#selected{
+    position: absolute;
+    background: #2D2427;
+    padding:23px;
+    margin-left: 80px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#selected2{
+    position: absolute;
+    background: #2D2427;
+    padding:23px;
+    margin-left: 315px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+/*iconos de usuario y buscador*/
+.container
+{
+    position: absolute;
+    left: 75%;
+    top: 18%;
+    transform: translate(-40%, 0%);
+    padding: 10px;
+}
+
+.btn
+{
+    position: absolute;
+    left: 58.03%;
+    right: 29.57%;
+    top: 0;
+    bottom: 21.43%;
+    width: 78px;
+    height: 49px;
+    
+    background: #000000;
+    line-height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #D0BD14;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.usuario .icon-user
+{
+    position: absolute;
+    left: 26%;
+    right: 21.57%;
+    top: 18%;
+    bottom: 21.43%;
+    width: 78px;
+    height: 49px;
+    
+    background: #000000;
+    line-height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #D0BD14;
+ /* Alinear los iconos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Estilos del producto individual*/
+.mezcalCf .imgCf
+{
+    position: absolute;
+    width: 400px;
+    height: 542px;
+    left: 108px;
+    top: 120px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nombreTrab > h1
+{
+    position: absolute;
+    width: 697px;
+    height: 85px;
+    left: 616px;
+    top: 132px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #2D2427;
+
+}
+.nombreTrab
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: -120px;
+    margin-top: 180px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    
+
+    color: #2D2427;
+}
+
+.nombreTrab > p
+{
+    margin-top:0;
+}
+.Contenedor
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+/* boton de carrito */
+
+.botones
+{
+    margin-top: 420px;
+    margin-left: 740px;
+    margin-top: 100px;
+}
+
+.botones .boton #carrito
+{
+    font-size: 25px;
+}
+
+.boton #carrito
+{
+    color: #E5DCC8;
+    text-decoration: none;
+    text-align: center;
+    font-family:sans-serif;
+    margin: 20px;
+    width: 25%;
+    
+    padding: 1rem;
+    background-color: #2D2427;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: #ccc;
+   
+   
+}
+.boton #comp
+{
+    color: #E5DCC8;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto';
+    
+   
+    width: 25%;
+    padding: 1rem;
+
+    background-color: #2D2427;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.mezcalc 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+.mezcalc .imgcf
+{
+    position: absolute;
+    width: 150px;
+    height: 193px;
+    left: 50px;
+    top: 687px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.imgcf:hover
+{
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 2);
+    transform: translateY(-3%);
+  
+    transition: all 400ms ease-out;
+}
+.mezcalc .imgcf2
+{
+    position: absolute;
+    width: 150px;
+    height: 193px;
+    left: 237px;
+    top: 688px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+.imgcf2:hover
+{
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 2);
+    transform: translateY(-3%);
+  
+    transition: all 400ms ease-out;
+}
+.mezcalc .imgcf3
+{
+    position: absolute;
+    width: 150px;
+    height: 193px;
+    left: 425px;
+    top: 688px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+.imgcf3:hover
+{
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 2);
+    transform: translateY(-3%);
+  
+    transition: all 400ms ease-out;
+}
+/* seccion de los productos*/
+
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	color: #2D2427;
+    line-height: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+
+    margin-top: 400px;
+    margin-left: 20px;
+
+
+}
+.title-cards2
+{
+    width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	color: #2D2427;
+    line-height: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+
+    margin-top: -10px;
+    margin-left: 20px;
+
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+    margin: 20px;
+	width: 88%;
+	height:340px;
+}
+.card .contenido-card{
+	padding: 15px;
+	
+}
+/* titulo de los productos */
+.card .contenido-card h3{
+	margin-bottom: 4px;
+	color: #2D2427;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    
+
+}
+.card .contenido-card p{
+	line-height: 28.13px;
+	color: #2D2427;
+	font-size: 18px;
+	margin-bottom: 3px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #2D2427;
+	border-radius: 2px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+    background-color: #2D2427;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+/* Centrar */
+    display: flex;
+    justify-content: center;
+    
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*Fin-Cards*/
+
+
+
+
+
+/* Estilos de la parte inferior*/
+footer
+{
+    width: 100%;
+    height: 75px;
+    background-color: #2D2427;
+
+}
+footer .face
+{
+    border-radius: 500px;
+    background: #E5DCC8;
+    height: 70px;
+    width: 70px;
+    margin-left: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:800px) 
+{
+    header
+    {
+        width: 100%;
+    }
+    header nav {
+        width: 80%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+
+    header nav ul li
+    {
+        display: block;
+        float: none;
+        border-bottom:1px solid #D0BD14 ;
+    }
+    header nav ul li a
+    {
+
+        margin-left: 0px;
+    }
+    .menu_bar
+    {
+        display: block;
+        width: 100%;
+        background: #E5DCC8;
+    }
+    .menu_bar .bt-menu
+    {
+        display: block;
+        padding: 40px;
+        background-color: #000;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .menu_bar span
+    {
+        float: right;
+        font-size: 30px;
+        margin-top: -15px;
+    }
+    header nav ul li a
+    {
+        color: #E5DCC8;
+        padding: 20px;
+        margin-left: 90px;
+        display: block;
+        text-decoration: none;
+
+        font-size: 25px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px;
+        color: #E5DCC8;
+    }
+    header nav .icon-cart
+    {
+        display: block;
+    }
+    header nav span 
+    {
+        display: block;
+    
+    }
+    #selected{
+        padding:0px;
+        margin-left: 50px;
+        width: 0px;
+        margin-top: 2px;
+    }
+    #selected2{
+    
+        padding:0px;
+        margin-left: 50px;
+        width: 0px;
+        margin-top: 55px;
+    }
+    header nav ul li a
+    {
+        color: #E5DCC8;
+        margin-left: 120px;
+        display: block;
+        text-decoration: none;
+    
+        font-size: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px;
+        color: #E5DCC8;
+    }
+    .container
+    {
+        display: none;
+    }
+    .usuario .icon-user
+    {
+        display: none;
+    }
+
+    /* producto individual*/
+    .mezcalCf .imgCf
+    {
+        width: 330px;
+        height: 450px;
+        left: 120px;
+        top: 380px;
+    }
+    /* Seccion2 de imagenes */
+
+    .mezcalc .imgcf
+    {
+        left: 49px;
+        top: 850px;
+    }
+
+    .mezcalc .imgcf2
+    {
+        left: 210px;
+        top: 850px;
+    }
+
+    .mezcalc .imgcf3
+    {
+        left: 370px;
+        top: 850px;
+    }
+
+    /*Texto  */
+    .nombreTrab > h1
+    {
+        left: 69px;
+        top: 110px;
+        font-size: 34px;
+
+    }
+    .nombreTrab
+    {
+        gap: 1px;
+    
+        margin-left: -230px;
+        margin-top: 150px;
+        font-size: 24px;
+
+    }
+
+    .nombreTrab > p
+    {
+        margin-top:0;
+    }
+    /* botones */
+    .botones
+    {
+        margin-top: 690px;
+        padding: 2rem;
+        margin-left: 25px;
+    }
+    .boton #carrito
+    {
+        padding: 2rem;
+        font-size: 20px;
+
+    }
+    /* Productos recomendados*/
+    .container-card{
+        width: 65%;
+        display: flex;
+        max-width: 1100px;
+        margin: auto;
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 2rem;
+    
+    }
+    .title-cards{
+ 
+        font-size: 24px;
+        margin-top: 80px;
+        margin-left: 20px;
+
+    }
+    .title-cards2
+    {
+        font-size: 24px;
+        margin-top: 80px;
+        margin-left: 20px;
+    
+    }
+    
+
+}
